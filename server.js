@@ -14,6 +14,7 @@ const static = require("./routes/static")
 /* ***********************
  * Routes
  *************************/
+app.use(express.static("public"))
 app.use(static)
 
 // Index route
